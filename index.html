@@ -15,7 +15,7 @@
         <form action="login.php" method="get">
             <div id="box1">
                 <img src="imagens/user.png" alt="">
-                <input type="email" name="email" id="iemail">
+                <input type="email" name="email" id="iemail" required>
             </div>
 
             <p>
@@ -24,13 +24,13 @@
 
             <div id="box2">
                 <img src="imagens/key.png" alt="">
-                <input type="password" name="senha" id="isenha">
+                <input type="password" name="senha" id="isenha" minlength="4" max="15" required>
             </div>
 
             <div id="box3">
-                <form action="login-sucess.php" method="get">
-                    <input type="submit" value="Entrar">
-                </form>
+                
+                <input type="submit" value="Entrar">
+
             </div>
 
             <div id="box4">
