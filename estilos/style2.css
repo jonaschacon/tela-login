@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* Tela deitada */
+
+main {
+    background-color: white;
+    width: 90%;
+    height: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 3px hsla(137, 92%, 23%, 0.655);
+}
+
+img#landscape {
+    display: none;
+}
+
+img#portrait {
+    width: 30%;
+    height: 100vh;
+    border-radius: 12px 0px 0px 12px;
+}
+
+div#box1 {
+    position: relative;
+    bottom: 300px;
+}

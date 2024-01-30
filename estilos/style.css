@@ -31,19 +31,27 @@ main {
     box-shadow: 4px 4px 3px hsla(137, 92%, 23%, 0.655);
 }
 
-main > img {
+main > img#landscape {
+    position: relative;
     width: 100%;
     border-radius: 12px 12px 0px 0px;
 }
+main > img#portrait {
+    display: none;
+}
 
-main > h1 {
+main > div#log-header1 > h1 {
     text-align: center;
     font-weight: bolder;
 }
 
-main > p {
+main > div#log-header1 > p {
     text-align: center;
     padding: 10px;
+}
+
+main > div#log-header2 {
+    display: none;
 }
 
 form > p > input{

@@ -6,21 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/style2.css" media="screen and (orientation: landscape)">
 </head>
 <body>
     <main>
-        <img src="imagens/pexels-cottonbro-studio.jpg" alt="">
-        <h1>Login</h1>
-        <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+        <img id="landscape" src="imagens/pexels-cottonbro-studio.jpg" alt="">
+        <img id="portrait" src="imagens/pexels-cottonbro-studio-landscape.jpg" alt="">
+        <div id=log-header1>
+            <h1>Login</h1>
+            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+        </div>
+        <div id=log-header2>
+            <h1>Login</h1>
+            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+        </div>
         <form action="login.php" method="get">
             <div id="box1">
                 <img src="imagens/user.png" alt="">
                 <input type="email" name="email" id="iemail" required>
             </div>
 
-            <p>
-                
-            </p>
 
             <div id="box2">
                 <img src="imagens/key.png" alt="">
@@ -28,9 +33,7 @@
             </div>
 
             <div id="box3">
-                
                 <input type="submit" value="Entrar">
-
             </div>
 
             <div id="box4">
